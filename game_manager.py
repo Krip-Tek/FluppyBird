@@ -17,7 +17,7 @@ def screen_update():  # Обновление дисплея
     pygame.display.update()
 
 
-def collision_check(walls, bird):
+def collision_check(walls, bird):  # Проверка столкновения птицы и трубы
     global bird_life
     bird_life = True
     for wall in walls:
